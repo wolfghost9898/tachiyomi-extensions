@@ -1,12 +1,12 @@
-package eu.kanade.tachiyomi.extension.es.olympusscan
+package eu.kanade.tachiyomi.extension.es.olympusscanlation
 
-import eu.kanade.tachiyomi.extension.es.olympusscanlation.DTO.OlympusScanlationDto.ChapterDto
-import eu.kanade.tachiyomi.extension.es.olympusscanlation.DTO.OlympusScanlationDto.MangaDetailDto
-import eu.kanade.tachiyomi.extension.es.olympusscanlation.DTO.OlympusScanlationDto.MangaDto
-import eu.kanade.tachiyomi.extension.es.olympusscanlation.DTO.OlympusScanlationDto.PayloadChapterDto
-import eu.kanade.tachiyomi.extension.es.olympusscanlation.DTO.OlympusScanlationDto.PayloadHomeDto
-import eu.kanade.tachiyomi.extension.es.olympusscanlation.DTO.OlympusScanlationDto.PayloadMangaDto
-import eu.kanade.tachiyomi.extension.es.olympusscanlation.DTO.OlympusScanlationDto.PayloadPagesDto
+import eu.kanade.tachiyomi.extension.es.olympusscanlation.dto.OlympusScanlationDto.ChapterDto
+import eu.kanade.tachiyomi.extension.es.olympusscanlation.dto.OlympusScanlationDto.MangaDetailDto
+import eu.kanade.tachiyomi.extension.es.olympusscanlation.dto.OlympusScanlationDto.MangaDto
+import eu.kanade.tachiyomi.extension.es.olympusscanlation.dto.OlympusScanlationDto.PayloadChapterDto
+import eu.kanade.tachiyomi.extension.es.olympusscanlation.dto.OlympusScanlationDto.PayloadHomeDto
+import eu.kanade.tachiyomi.extension.es.olympusscanlation.dto.OlympusScanlationDto.PayloadMangaDto
+import eu.kanade.tachiyomi.extension.es.olympusscanlation.dto.OlympusScanlationDto.PayloadPagesDto
 import eu.kanade.tachiyomi.network.GET
 import eu.kanade.tachiyomi.source.model.FilterList
 import eu.kanade.tachiyomi.source.model.MangasPage
@@ -20,7 +20,7 @@ import okhttp3.HttpUrl.Companion.toHttpUrl
 import okhttp3.Request
 import okhttp3.Response
 import uy.kohesive.injekt.injectLazy
-class olympusscanlation : HttpSource() {
+class OlympusScanlation : HttpSource() {
 
     override val baseUrl: String = "https://olympusscans.com"
     private val apiBaseUrl: String = "https://dashboard.olympusscans.com"

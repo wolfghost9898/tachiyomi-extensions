@@ -1,4 +1,4 @@
-package eu.kanade.tachiyomi.extension.es.olympusscanlation.DTO
+package eu.kanade.tachiyomi.extension.es.olympusscanlation.dto
 import kotlinx.serialization.Serializable
 @Serializable
 object OlympusScanlationDto {
