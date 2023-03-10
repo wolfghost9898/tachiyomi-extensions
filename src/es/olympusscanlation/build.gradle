@@ -4,10 +4,10 @@ apply plugin: 'kotlinx-serialization'
 
 
 ext {
-    extName = 'olympusscans'
-    pkgNameSuffix = 'es.olympusscans'
-    extClass = '.olympusscans'
-    extVersionCode = 1
+    extName = 'Olympus Scanlation'
+    pkgNameSuffix = 'es.olympusscanlation'
+    extClass = '.OlympusScanlation'
+    extVersionCode = 2
 }
 
 apply from: "$rootDir/common.gradle"
