@@ -78,7 +78,7 @@ class OlympusScanlation : HttpSource() {
             url = "/series/comic-$slug"
             title = result.data.name
             thumbnail_url = result.data.cover
-            description = result.data.summary
+            description = result.data.summary ?: "Sin descripcion"
         }
     }
     override fun imageUrlParse(response: Response): String = throw Exception("Not used")
